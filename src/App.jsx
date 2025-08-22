@@ -2,10 +2,20 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import './index.css'  // 👈 importa tailwind
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
+
 
 export default function App() {
   const images = [
-    "Bocuates/img/portada1b.png",
+    "/img/portada1b.png",
     "/img/portada2.jpg",
     "/img/portada3.jpg"
   ];

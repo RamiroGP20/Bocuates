@@ -15,9 +15,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 export default function App() {
   const images = [
-    "/img/portada1b.png",
-    "/img/portada2.jpg",
-    "/img/portada3.jpg"
+    "Bocuates/portada1b.png",
+    "Bocuates/portada2.jpg",
+    "Bocuates/portada3.jpg"
   ];
 
   const [index, setIndex] = useState(0);

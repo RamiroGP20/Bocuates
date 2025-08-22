@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function App() {
   const images = [
-    "/img/portada1b.png",
+    "Bocuates/img/portada1b.png",
     "/img/portada2.jpg",
     "/img/portada3.jpg"
   ];

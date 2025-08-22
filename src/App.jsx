@@ -15,9 +15,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 export default function App() {
   const images = [
-    "Bocuates/portada1b.png",
-    "Bocuates/portada2.jpg",
-    "Bocuates/portada3.jpg"
+    "/portada1b.png",
+    "/portada2.jpg",
+    "/portada3.jpg"
   ];
 
   const [index, setIndex] = useState(0);
@@ -47,7 +47,7 @@ export default function App() {
     },
     papa: {
       name: "Papa Deshidratada",
-      images: ["/img/producto2.jpg", "/img/producto2b.jpg"],
+      images: ["public/producto2.jpg", "/img/producto2b.jpg"],
       description: "Crujiente papa deshidratada, ideal como botana.",
       presentations: ["Bolsa 100g - $20", "Bolsa 450g - $40", "Bolsa 3KG - "]
     },
@@ -105,7 +105,7 @@ export default function App() {
       <nav className="bg-yellow-500 shadow-lg fixed top-0 left-0 w-full z-50">
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <img src="/logo.png" alt="Bocuates Logo" className="h-12 w-auto object-contain" />
+            <img src="public/logo.png" alt="Bocuates Logo" className="h-12 w-auto object-contain" />
           </div>
           <div className="hidden md:flex space-x-8 text-white font-medium">
             <a href="#quienes" className="hover:text-gray-200 transition">Quiénes Somos</a>

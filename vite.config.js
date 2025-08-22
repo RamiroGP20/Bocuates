@@ -1,8 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
 
-// 👇 reemplaza "mi-empresa" por el nombre EXACTO de tu repositorio en GitHub
 export default defineConfig({
-  plugins: [react()],
-  base: '/Bocuates/'
-})
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
+});

@@ -69,7 +69,7 @@ export default function App() {
     },
     minicuadro: {
       name: "Minicuadro",
-       images: [`${import.meta.env.BASE_URL}img/producto4.jpg`],,
+       images: [`${import.meta.env.BASE_URL}img/producto4.jpg`],
       description: "Pequeños cuadros de trigo crujientes.",
       presentations: ["Bolsa 100g - $18", "Bolsa 250g - $35"]
     },

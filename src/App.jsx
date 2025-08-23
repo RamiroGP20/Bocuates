@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 export default function App() {
   const images = [
   `${import.meta.env.BASE_URL}bocuates_portada.webp`,
-  `${import.meta.env.BASE_URL}bocuates_portada_durito.webp`,
+  `${import.meta.env.BASE_URL}bocuates_portada_durito1.webp`,
   `${import.meta.env.BASE_URL}bocuates_portada_rotini.webp`
 ];
 
@@ -132,7 +132,7 @@ export default function App() {
       </nav>
 
       {/* Carrusel principal */}
-<div className="relative w-full overflow-hidden bg-black">
+<div className="relative w-full aspect-[16/9] bg-black">
   <AnimatePresence mode="wait">
     <motion.img
       key={index}
@@ -142,7 +142,7 @@ export default function App() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1 }}
-      className="w-full h-[600px] md:h-[700px] object-contain" // ← ajusta estas alturas
+      className="w-full h-full object-contain" // ← ajusta estas alturas
     />
   </AnimatePresence>
 
@@ -224,7 +224,7 @@ export default function App() {
 
             <h3 className="text-2xl font-bold mb-4">{selectedProduct.name}</h3>
 
-            <div className="relative">
+            <div className="relative w-full aspect-[16/9] bg-black">
               <AnimatePresence mode="wait">
                 <motion.img
                   key={modalIndex}
@@ -234,7 +234,7 @@ export default function App() {
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.8 }}
-                  className="w-full h-40 object-contain rounded-lg mb-4"
+                  className="w-full h-full object-contain"
                 />
               </AnimatePresence>
 

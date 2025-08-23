@@ -16,8 +16,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 export default function App() {
   const images = [
   `${import.meta.env.BASE_URL}bocuates_portada.webp`,
-  `${import.meta.env.BASE_URL}bocuates_portada_duritos_hd.webp`,
-  `${import.meta.env.BASE_URL}portada3.jpg`
+  `${import.meta.env.BASE_URL}bocuates_portada_durito.webp`,
+  `${import.meta.env.BASE_URL}bocuates_portada_rotini.webp`
 ];
 
   const [index, setIndex] = useState(0);

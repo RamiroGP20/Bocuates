@@ -234,7 +234,7 @@ export default function App() {
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.8 }}
-                  className="w-full h-40 object-cover rounded-lg mb-4"
+                  className="w-full h-40 object-contain rounded-lg mb-4"
                 />
               </AnimatePresence>
 

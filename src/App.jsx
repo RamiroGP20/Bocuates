@@ -122,7 +122,7 @@ export default function App() {
       <nav className="bg-yellow-500 shadow-lg fixed top-0 left-0 w-full z-50">
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Bocuates Logo" className="h-12 w-auto object-contain"/>
+            <img src={`${import.meta.env.BASE_URL}logo.webp`} alt="Bocuates Logo" className="h-12 w-auto object-contain"/>
           </div>
           <div className="hidden md:flex space-x-8 text-white font-medium">
             <a href="#quienes" className="hover:text-gray-200 transition">Quiénes Somos</a>

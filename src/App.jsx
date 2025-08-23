@@ -43,9 +43,9 @@ export default function App() {
     durito: {
       name: "Durito",
       images: [
-      `${import.meta.env.BASE_URL}img/producto1.png`,
-      `${import.meta.env.BASE_URL}img/producto1b.jpg`,
-      `${import.meta.env.BASE_URL}img/producto1c.png`
+      `${import.meta.env.BASE_URL}producto1.webp`,
+      `${import.meta.env.BASE_URL}producto1b.webp`,
+      `${import.meta.env.BASE_URL}producto1c.webp`
     ],
       description: "Delicioso durito crujiente hecho de trigo.",
       presentations: ["Bolsa 100g - $15", "Bolsa 250g - $30"]
@@ -53,8 +53,8 @@ export default function App() {
     papa: {
       name: "Papa Deshidratada",
       images: [
-      `${import.meta.env.BASE_URL}img/producto2.jpg`,
-      `${import.meta.env.BASE_URL}img/producto2b.jpg`
+      `${import.meta.env.BASE_URL}producto2.webp`,
+      `${import.meta.env.BASE_URL}producto2b.webp`
     ],
       description: "Crujiente papa deshidratada, ideal como botana.",
       presentations: ["Bolsa 100g - $20", "Bolsa 450g - $40", "Bolsa 3KG - "]
@@ -62,44 +62,44 @@ export default function App() {
     rotini: {
       name: "Rotini",
       images: [
-      `${import.meta.env.BASE_URL}img/producto3.jpg`,
-      `${import.meta.env.BASE_URL}img/producto3b.jpg`
+      `${import.meta.env.BASE_URL}producto3.webp`,
+      `${import.meta.env.BASE_URL}producto3b.webp`
     ],
       description: "Fritura de trigo en forma de rotini, sabor tradicional.",
       presentations: ["Bolsa 150g - $25", "Bolsa 300g - $45"]
     },
     minicuadro: {
       name: "Minicuadro",
-       images: [`${import.meta.env.BASE_URL}img/producto4.jpg`],
+       images: [`${import.meta.env.BASE_URL}producto4.webp`],
       description: "Pequeños cuadros de trigo crujientes.",
       presentations: ["Bolsa 100g - $18", "Bolsa 250g - $35"]
     },
     mix: {
       name: "Mix",
-       images: [`${import.meta.env.BASE_URL}img/producto5.jpg`],
+       images: [`${import.meta.env.BASE_URL}producto5.webp`],
       description: "Combinación de frituras variadas.",
       presentations: ["Bolsa 200g - $30", "Bolsa 400g - $55"]
     },
     chetos: {
       name: "Chetos",
      images: [
-      `${import.meta.env.BASE_URL}img/producto6.jpg`,
-      `${import.meta.env.BASE_URL}img/producto6b.jpg`
+      `${import.meta.env.BASE_URL}producto6.webp`,
+      `${import.meta.env.BASE_URL}producto6b.webp`
     ],
       description: "Crujientes chetos de maíz.",
       presentations: ["Bolsa 150g - $22", "Bolsa 300g - $40"]
     },
     tostada: {
       name: "Tostada Amarilla",
-      images: [`${import.meta.env.BASE_URL}img/producto7.jpg`],
+      images: [`${import.meta.env.BASE_URL}producto7.webp`],
       description: "Tostada de maíz amarillo, lista para acompañar.",
       presentations: ["Paquete 20 pzas - $25", "Paquete 50 pzas - $55"]
     },
     totopo: {
       name: "Totopo",
       images: [
-      `${import.meta.env.BASE_URL}img/producto8.jpg`,
-      `${import.meta.env.BASE_URL}img/producto9.jpg`
+      `${import.meta.env.BASE_URL}producto8.webp`,
+      `${import.meta.env.BASE_URL}producto9.webp`
     ],
       description: "Totopo clásico de maíz, perfecto para dips.",
       presentations: ["Bolsa 200g - $28", "Bolsa 500g - $60"]
@@ -175,7 +175,7 @@ export default function App() {
         <p className="max-w-4xl mx-auto text-lg text-gray-700">
           En <strong>Bocuates</strong> somos una empresa mexicana dedicada a la producción y venta de frituras con el mejor sabor y calidad.
         </p>
-        <img src={`${import.meta.env.BASE_URL}sello.png`} alt="Bocuates sello" className="max-h-64 mx-auto mt-6 object-contain" />
+        <img src={`${import.meta.env.BASE_URL}sello.webp`} alt="Bocuates sello" className="max-h-64 mx-auto mt-6 object-contain" />
       </section>
 
       {/* Productos */}

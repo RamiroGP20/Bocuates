@@ -142,7 +142,7 @@ export default function App() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1 }}
-      className="w-full h-[600px] md:h-[700px] object-cover" // ← ajusta estas alturas
+      className="w-full h-[600px] md:h-[700px] object-contain" // ← ajusta estas alturas
     />
   </AnimatePresence>
 

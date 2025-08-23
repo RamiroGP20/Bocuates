@@ -17,7 +17,8 @@ export default function App() {
   const images = [
   `${import.meta.env.BASE_URL}bocuates_portada.webp`,
   `${import.meta.env.BASE_URL}bocuates_portada_durito1.webp`,
-  `${import.meta.env.BASE_URL}bocuates_portada_rotini.webp`
+  `${import.meta.env.BASE_URL}bocuates_portada_rotini.webp`,
+  `${import.meta.env.BASE_URL}bocuates_portada_papa.webp`
 ];
 
   const [index, setIndex] = useState(0);

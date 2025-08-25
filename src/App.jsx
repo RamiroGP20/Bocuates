@@ -18,7 +18,10 @@ export default function App() {
   `${import.meta.env.BASE_URL}bocuates_portada.webp`,
   `${import.meta.env.BASE_URL}bocuates_portada_durito1.webp`,
   `${import.meta.env.BASE_URL}bocuates_portada_rotini.webp`,
-  `${import.meta.env.BASE_URL}bocuates_portada_papa.webp`
+  `${import.meta.env.BASE_URL}bocuates_portada_papa.webp`,
+  `${import.meta.env.BASE_URL}bocuates_portada_chetos.webp`,
+  `${import.meta.env.BASE_URL}bocuates_portada_tostada.webp`,
+  `${import.meta.env.BASE_URL}bocuates_portada_totopo.webp`
 ];
 
   const [index, setIndex] = useState(0);
